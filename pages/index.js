@@ -1,28 +1,15 @@
-import { useState } from 'react'
+import Link from 'next/link';
 
 const Home = () => {
     return (
         <div>
-            <h1>Contador</h1>
-            <Counter/>
+            <h1>Home</h1>
+            <Link href="/about">
+                <a>About</a>  
+            </Link>
         </div>
     )
 }
 
-const Counter = () => {
-    const [counter, setCounter] = useState(1);
-
-    const plusCounter = () => {
-        setCounter(counter + 1);
-    }
-
-    return (
-        <div> 
-            {counter} 
-            <button onClick={plusCounter}>Adicionar Contador</button>
-        </div>
-    )
-
-}
 
 export default Home

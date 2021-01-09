@@ -1,0 +1,28 @@
+{
+  "name": "game-rank",
+  "version": "1.0.0",
+  "description": "Simple website to learn next.js and use vercel",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^10.0.5",
+    "node": "^15.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick32132/game-rank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rick32132/game-rank/issues"
+  },
+  "homepage": "https://github.com/rick32132/game-rank#readme"
+}
